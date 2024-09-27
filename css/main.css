@@ -184,6 +184,6 @@ body {
     transition: var(--main-color);
 }
 
-.gnb li a:hover b::after {
+.gnb li a:hover::after {
     width: 100%;
 }
