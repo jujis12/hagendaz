@@ -3,14 +3,14 @@ body {
     background: var(--bg-color);
 }
 .visual {
-    max-width: 192rem;
+    max-width: 100vw;
     height: 80.4rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 .visual figure {
-    width: 1920px;
+    width: 100vw;
     height: 804px;
     position: absolute;
 }
