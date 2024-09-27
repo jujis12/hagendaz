@@ -164,14 +164,14 @@ body {
 .Event .sec-title {
     margin-top: 20rem;
 }
-.gnb li a b {
+.gnb li a {
     display: block;
     padding: 10px 0;
 
     position: relative;
 }
 
-.gnb li a b::after {
+.gnb li a::after {
     content: "";
 
     position: absolute;
@@ -181,7 +181,7 @@ body {
     width: 0%;
     height: 3px;
     background: var(--main-color);
-    transition: var(--basic-transition);
+    transition: var(--main-color);
 }
 
 .gnb li a:hover b::after {
