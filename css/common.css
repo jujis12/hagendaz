@@ -66,8 +66,28 @@ body {
     padding: 6rem;
     color: #000;
     font-weight: 700;
+
     font-size: 2rem;
+    position: relative;
 }
+
+.gnb li a b::after {
+    content: ""; /* ct */
+    /* posa+b0+l0+w100p+h3+bg */
+    position: absolute;
+    bottom: 46px;
+    left: 50%;
+    transform: translateX(-50%); /* trftx */
+    width: 0%;
+    height: 3px;
+    background: var(--main-color);
+    transition: 0.6s;
+}
+
+.gnb li a:hover b::after {
+    width: 100px;
+}
+
 .util-menu {
     display: flex;
     margin-bottom: 1rem;
