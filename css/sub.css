@@ -77,7 +77,7 @@ table .box {
 }
 table .obj {
     margin-top: 6rem;
-    width: 39.1rem;
+    width: 42.1rem;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -211,6 +211,28 @@ span {
 .subclass {
     text-align: center;
     margin-bottom: 33.1rem;
+}
+.obj td::before {
+    content: "";
+    display: block;
+    width: 4.2rem;
+    height: 4.2rem;
+    background: url(../img/ico-min.png) no-repeat 0 / cover;
+}
+.obj td::after {
+    content: "";
+    display: block;
+    width: 4.2rem;
+    height: 4.2rem;
+    background: url(../img/ico-plus.png) no-repeat 0 / cover;
+}
+.obj-sell {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 14.2rem;
+    height: 4.3rem;
+    border: 1px solid #000;
 }
 /* .menu-item a:hover dl {
     top: 42%;
