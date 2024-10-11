@@ -4,9 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Häagen-Dazs ㅣ Markup</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="./css/common.css" />
+        <link rel="stylesheet" href="./css/swiper.css" />
+        <script src="./js/script.js" defer></script>
     </head>
     <body>
         <!-- Start / header -->
@@ -42,10 +46,31 @@
         <main id="main">
             <!-- Start / visual  -->
             <section class="visual">
-                <figure><img src="./img/Mainbn.jpg" alt="" /></figure>
-                <div class="visual-title">
-                    <h2>한입의 감동, <br />더 가까운 하겐다즈</h2>
-                    <a href="sub.html">지금 구매하기</a>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="visual-slide-wrap swiper-slide">
+                            <figure><img src="./img/Mainbn.jpg" alt="" /></figure>
+                            <div class="visual-title">
+                                <h2>한입의 감동, <br />더 가까운 하겐다즈</h2>
+                                <a href="sub.html">지금 구매하기</a>
+                            </div>
+                        </div>
+                        <div class="visual-slide-wrap swiper-slide">
+                            <figure><img src="./img/Mainbn.jpg" alt="" /></figure>
+                            <div class="visual-title">
+                                <h2>한입의 <br />더 가까운 하겐다즈</h2>
+                                <a href="sub.html">지금 구매하기</a>
+                            </div>
+                        </div>
+                        <div class="visual-slide-wrap swiper-slide">
+                            <figure><img src="./img/Mainbn.jpg" alt="" /></figure>
+                            <div class="visual-title">
+                                <h2>한입의 감 <br />더 가까운 하겐다즈</h2>
+                                <a href="sub.html">지금 구매하기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
             <!-- End // Visual -->
